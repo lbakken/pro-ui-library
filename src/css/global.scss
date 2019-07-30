@@ -1,0 +1,41 @@
+@import "./typography.scss";
+@import "./theme.scss";
+
+$border-width: 0.5px;
+$global-font-size: 100%;
+$margin-default: 5px;
+$padding-default: 5px;
+
+$z-index-backdrop: 14;
+$z-index-popup: 15;
+
+html {
+  font-family: $font-stack;
+  font-size: $global-font-size;
+  background-color: $baby-powder;
+  color: $smoky-black;
+  height: 100%;
+  width: 100%;
+}
+
+#body {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+:host {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  pro-modal {
+    width: 50%;
+    height: 50%;
+  }
+
+
+
+}

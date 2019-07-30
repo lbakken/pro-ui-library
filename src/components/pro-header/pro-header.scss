@@ -1,0 +1,22 @@
+@import "../../css/global.scss";
+
+pro-header {
+  display: block;
+  position: relative;
+  margin-bottom: 2%;
+  box-shadow: 0 1px 3px $ash-grey;
+  font-size: $h6-font-size;
+  font-weight: 700;
+
+  margin: {
+    top: $padding-default;
+    bottom: $padding-default;
+    left: $padding-default;
+    right: $padding-default;
+
+  }
+
+  .special {
+    color: $bright-blue;
+  }
+}

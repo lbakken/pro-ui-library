@@ -1,0 +1,35 @@
+@import '../../css/global.scss';
+
+input[type='checkbox']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: rgba(220, 220, 220, 1);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='checkbox']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  top: -2px;
+  left: -1px;
+  content: '✔';
+  position: relative;
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+  color: $bright-blue;
+  text-align: center;
+}
+
+input[type='checkbox']:hover:after {
+  background: rgba(30, 150, 255, 1);
+  transition: 1s;
+}

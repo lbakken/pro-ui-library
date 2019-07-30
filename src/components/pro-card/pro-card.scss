@@ -1,0 +1,17 @@
+@import "../../css/global.scss";
+
+pro-card {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 1px 3px $ash-grey;
+  transition: 0.3s;
+  border-color: $smoky-black;
+  border-width: 1px;
+  font-size: $p-font-size;
+  padding: $padding-default;
+  margin: $margin-default;
+  background-color: $baby-powder;
+  min-height: 200px;
+  max-height: 500px;
+}

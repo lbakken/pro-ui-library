@@ -1,0 +1,57 @@
+@import "../../css/global.scss";
+
+:host {
+  .button-native {
+    background-color: $gun-metal;
+    padding: 5px;
+    border-radius: 10%;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: $baby-powder;
+    font-family: $font-stack;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 100%;
+    min-height: 35px;
+    max-height: 70px;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .button-inner {
+    font-weight: bold;
+  }
+
+  button:disabled {
+    background-color: gray;
+    color: lighten(gray, 75%);
+    cursor: auto;
+    font-size: 14px;
+  }
+
+  :hover {
+    background-color: lighten($bright-blue, 30%);
+    color: $gun-metal;
+    transition: .5s;
+    font-size: 16px;
+  }
+
+  :focus {
+    outline: none;
+    box-shadow: 0 1px 3px $ash-grey;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .button-native {
+      font-size: 10px;
+    }
+
+    :hover {
+      font-size: 12px;
+    }
+
+    button:disabled {
+      font-size: 10px;
+    }
+  }
+}

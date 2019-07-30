@@ -1,0 +1,8 @@
+@import "../../css/global.scss";
+
+:host {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: $padding-default;
+  margin: $margin-default;
+}

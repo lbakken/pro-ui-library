@@ -1,0 +1,11 @@
+@import '../../css/global.scss';
+
+:host {
+  font-size: $h6-font-size;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0 1px 3px $ash-grey;
+  background-color: white;
+  height: 60px;
+}
