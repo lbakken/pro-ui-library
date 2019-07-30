@@ -10,11 +10,11 @@
 ### Depends on
 
 - [pro-header](../pro-header)
+- [pro-content](../pro-content)
 - [pro-grid](../pro-grid)
 - [pro-row](../pro-row)
 - [pro-col](../pro-col)
 - [pro-card](../pro-card)
-- [pro-content](../pro-content)
 - [pro-image](../pro-image)
 - [pro-button](../pro-button)
 - [pro-input](../pro-input)
@@ -28,11 +28,11 @@
 ```mermaid
 graph TD;
   pro-component-demo --> pro-header
+  pro-component-demo --> pro-content
   pro-component-demo --> pro-grid
   pro-component-demo --> pro-row
   pro-component-demo --> pro-col
   pro-component-demo --> pro-card
-  pro-component-demo --> pro-content
   pro-component-demo --> pro-image
   pro-component-demo --> pro-button
   pro-component-demo --> pro-input
